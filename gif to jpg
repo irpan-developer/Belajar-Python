@@ -1,0 +1,7 @@
+import numpy as np
+import cv2 as cv
+ 
+ 
+gif = cv.VideoCapture('wint_sky.gif')
+ret, frame = gif.read()
+cv.imwrite('image.jpeg', frame)
